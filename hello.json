@@ -65,7 +65,7 @@
               },
               "text": "My Forms",
               "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/demo.json",
+                "url": "https://raw.githubusercontent.com/DylanJuiced/juiceddemo/master/myforms",
                 "fresh": "true"
               }
             },
