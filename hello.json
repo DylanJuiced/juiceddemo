@@ -26,7 +26,7 @@
               "components": [
                 {
                   "type": "label",
-                  "text": "Welcome to Juiced",
+                  "text": "Juiced App Forms",
                   "style": {
                     "align": "center",
                     "font": "Courier-Bold",
@@ -35,7 +35,7 @@
                 },
                 {
                   "type": "label",
-                  "text": "Juiced apps tagline.",
+                  "text": "Keeping food safety safe.",
                   "style": {
                     "align": "center",
                     "font": "Courier",
