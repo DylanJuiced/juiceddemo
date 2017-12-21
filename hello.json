@@ -26,16 +26,16 @@
               "components": [
                 {
                   "type": "label",
-                  "text": "It's ALIVE!",
+                  "text": "It's Juiced!",
                   "style": {
                     "align": "center",
                     "font": "Courier-Bold",
-                    "size": "18"
+                    "size": "19"
                   }
                 },
                 {
                   "type": "label",
-                  "text": "This is a demo app. You can make your own app by changing the url inside settings.plist",
+                  "text": "This is a demo app. This is where Juiced apps is going to sit.",
                   "style": {
                     "align": "center",
                     "font": "Courier",
