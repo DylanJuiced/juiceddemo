@@ -30,14 +30,6 @@
           "font": "AvenirNext-Bold",
           "size": "14"
         },
-        "menu": {
-          "text": "Sanitation Checklist",
-          "href": {
-            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/demo.json",
-            "view": "web"
-          }
-        }
-      },
       "sections": [
         {
           "items": [
@@ -73,7 +65,7 @@
             "components": [{
               "type": "label",
               "class": "bold",
-              "text": "Tutorial"
+              "text": "Sanitation Checklist"
             }, {
               "type": "label",
               "class": "normal",
@@ -83,7 +75,7 @@
           "items": [
             {
               "type": "label",
-              "text": "Core",
+              "text": "HVAC Checklist",
               "class": "bold padded",
               "href": {
                 "url": "https://jasonette.github.io/Jasonpedia/core/index.json"
@@ -99,7 +91,7 @@
             },
             {
               "type": "label",
-              "text": "Action",
+              "text": "SQF Audit",
               "class": "bold padded",
               "href": {
                 "url": "https://jasonette.github.io/Jasonpedia/action/index.json"
@@ -115,7 +107,7 @@
             },
             {
               "type": "label",
-              "text": "Web Container",
+              "text": "Warehouse Checklist",
               "class": "bold padded",
               "href": {
                 "url": "https://jasonette.github.io/Jasonpedia/webcontainer/index.json"
@@ -136,7 +128,7 @@
             }, {
               "type": "label",
               "class": "normal",
-              "text": "Wrote a cool/useful JSON markup? Send a pull request to https://github.com/Jasonette/Jasonpedia"
+              "text": "Juiced Apps Checklists"
             }]
           },
           "items": [{
