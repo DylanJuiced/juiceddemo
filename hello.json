@@ -26,7 +26,7 @@
               "components": [
                 {
                   "type": "label",
-                  "text": "It's Juiced!",
+                  "text": "Welcome to Juiced",
                   "style": {
                     "align": "center",
                     "font": "Courier-Bold",
@@ -35,7 +35,7 @@
                 },
                 {
                   "type": "label",
-                  "text": "This is a demo app. This is where Juiced apps is going to sit.",
+                  "text": "Juiced apps tagline.",
                   "style": {
                     "align": "center",
                     "font": "Courier",
@@ -63,7 +63,7 @@
                 "font": "HelveticaNeue",
                 "size": "12"
               },
-              "text": "Check out Live DEMO",
+              "text": "My Forms",
               "href": {
                 "url": "https://jasonette.github.io/Jasonpedia/demo.json",
                 "fresh": "true"
@@ -78,7 +78,7 @@
                 "font": "HelveticaNeue",
                 "size": "12"
               },
-              "text": "Watch the tutorial video",
+              "text": "My Inbox",
               "href": {
                 "url": "https://www.youtube.com/watch?v=hfevBAAfCMQ",
                 "view": "Web"
@@ -93,7 +93,7 @@
                 "font": "HelveticaNeue",
                 "size": "12"
               },
-              "text": "View documentation",
+              "text": "Forms in Progress",
               "href": {
                 "url": "https://jasonette.github.io/documentation",
                 "view": "Web"
