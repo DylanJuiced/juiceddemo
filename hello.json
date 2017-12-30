@@ -65,7 +65,7 @@
               },
               "text": "My Forms",
               "href": {
-                "url": "https://raw.githubusercontent.com/DylanJuiced/juiceddemo/master/myforms",
+                "url": "https://raw.githubusercontent.com/DylanJuiced/juiceddemo/master/myforms.json",
                 "fresh": "true"
               }
             },
