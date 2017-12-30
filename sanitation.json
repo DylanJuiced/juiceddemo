@@ -1,0 +1,100 @@
+{
+  "$jason": {
+    "head": {
+      "title": "{ ˃̵̑ᴥ˂̵̑}",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "style": {
+        "background": "#ffffff",
+        "border": "none"
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "vertical",
+              "style": {
+                "padding": "30",
+                "spacing": "20",
+                "align": "center"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "text": "Juiced Forms",
+                  "style": {
+                    "align": "center",
+                    "font": "Courier-Bold",
+                    "size": "19"
+                  }
+                },
+                {
+                  "type": "label",
+                  "text": "Leader in food safety audits",
+                  "style": {
+                    "align": "center",
+                    "font": "Courier",
+                    "padding": "30",
+                    "size": "14"
+                  }
+                },
+                {
+                  "type": "label",
+                  "text": "JF",
+                  "style": {
+                    "align": "center",
+                    "font": "HelveticaNeue-Bold",
+                    "size": "40"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "label",
+              "style": {
+                "align": "right",
+                "padding": "10",
+                "color": "#000000",
+                "font": "HelveticaNeue",
+                "size": "12"
+              },
+              "text": "Are the sinks clean?",
+              "href": {
+                "url": "https://raw.githubusercontent.com/DylanJuiced/juiceddemo/master/myforms.json",
+                "fresh": "true"
+              }
+            },
+            function FormCtrl($scope) {
+  $scope.schema = {
+    type: "object",
+    properties: {
+      confirm: {
+        type: "boolean",
+        default: false
+      }
+    }
+  };
+
+  $scope.form = [
+    {
+      key: "confirm",
+      type: "radios",
+      titleMap: [
+        { value: false, name: "No I don't understand these cryptic terms" },
+        { value: true, , name: "Yes this makes perfect sense to me" }
+      ]
+    }
+  ];
+}
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
