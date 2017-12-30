@@ -32,25 +32,6 @@
                     "font": "Courier-Bold",
                     "size": "19"
                   }
-                },
-                {
-                  "type": "label",
-                  "text": "Leader in food safety audits",
-                  "style": {
-                    "align": "center",
-                    "font": "Courier",
-                    "padding": "30",
-                    "size": "14"
-                  }
-                },
-                {
-                  "type": "label",
-                  "text": "JF",
-                  "style": {
-                    "align": "center",
-                    "font": "HelveticaNeue-Bold",
-                    "size": "40"
-                  }
                 }
               ]
             },
