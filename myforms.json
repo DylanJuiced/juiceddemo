@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "Juiced App Forms",
+      "title": "My Forms",
       "styles": {
         "bold": {
           "font": "HelveticaNeue-CondensedBold",
@@ -23,7 +23,7 @@
     },
     "body": {
       "header": {
-        "title": "Juiced App Forms",
+        "title": "My Forms",
         "style": {
           "background": "#8bb92d",
           "color": "#ffffff",
