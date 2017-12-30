@@ -1,0 +1,50 @@
+{
+  "$jason": {
+    "head": {
+      "title": "{ ˃̵̑ᴥ˂̵̑}",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "style": {
+        "background": "#ffffff",
+        "border": "none"
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "vertical",
+              "style": {
+                "padding": "30",
+                "spacing": "20",
+                "align": "center"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "text": "My Inbox",
+                  "style": {
+                    "align": "center",
+                    "font": "Courier-Bold",
+                    "size": "19"
+                  }
+                },
+                {
+                  "type": "label",
+                  "text": "Inbox is empty",
+                  "style": {
+                    "align": "center",
+                    "font": "Courier",
+                    "padding": "30",
+                    "size": "14"
+                  }
+                ]
+        }
+      ]
+    }
+  }
+}
