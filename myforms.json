@@ -1,20 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "My Forms",
-      "styles": {
-        "bold": {
-          "font": "HelveticaNeue-CondensedBold",
-          "size": "15"
-        },
-        "padded": {
-          "padding": "10"
-        },
-        "normal": {
-          "font": "HelveticaNeue",
-          "size": "12"
-        }
-      },
+      "title": "{ ˃̵̑ᴥ˂̵̑}",
       "actions": {
         "$foreground": {
           "type": "$reload"
@@ -22,130 +9,97 @@
       }
     },
     "body": {
-      "header": {
-        "title": "My Forms",
-        "style": {
-          "background": "#8bb92d",
-          "color": "#ffffff",
-          "font": "AvenirNext-Bold",
-          "size": "14"
-        },
+      "style": {
+        "background": "#ffffff",
+        "border": "none"
+      },
       "sections": [
         {
           "items": [
             {
               "type": "vertical",
               "style": {
-                "background": "rgba(14,122,254,0.1)",
-                "padding": "20"
-              },
-              "href": {
-                "url": "mailto:?subject=Documentation&body=https://jasonette.github.io/documentation",
-                "view": "app"
+                "padding": "30",
+                "spacing": "20",
+                "align": "center"
               },
               "components": [
                 {
                   "type": "label",
-                  "text": "Send yourself Documentation",
-                  "class": "bold",
+                  "text": "Juiced Forms",
                   "style": {
-                    "color": "rgb(14,122,254)"
+                    "align": "center",
+                    "font": "Courier-Bold",
+                    "size": "19"
+                  }
+                },
+                {
+                  "type": "label",
+                  "text": "Leader in food safety audits",
+                  "style": {
+                    "align": "center",
+                    "font": "Courier",
+                    "padding": "30",
+                    "size": "14"
+                  }
+                },
+                {
+                  "type": "label",
+                  "text": "JF",
+                  "style": {
+                    "align": "center",
+                    "font": "HelveticaNeue-Bold",
+                    "size": "40"
                   }
                 }
               ]
-            }
-          ]
-        },
-        {
-          "header": {
-            "type": "vertical",
-            "style": {
-              "background": "#ebebeb"
             },
-            "components": [{
-              "type": "label",
-              "class": "bold",
-              "text": "Sanitation Checklist"
-            }, {
-              "type": "label",
-              "class": "normal",
-              "text": "Simple demos to demonstrate how each module works. Also used for testing purposes."
-            }]
-          },
-          "items": [
             {
               "type": "label",
-              "text": "HVAC Checklist",
-              "class": "bold padded",
+              "style": {
+                "align": "left",
+                "padding": "10",
+                "color": "#000000",
+                "font": "HelveticaNeue",
+                "size": "14"
+              },
+              "text": "Sanitation Checklist",
               "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/core/index.json"
+                "url": "https://raw.githubusercontent.com/DylanJuiced/juiceddemo/master/myforms",
+                "fresh": "true"
               }
             },
             {
               "type": "label",
-              "text": "View",
-              "class": "bold padded",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/view/index.json"
-              }
-            },
-            {
-              "type": "label",
+              "style": {
+                "align": "left",
+                "padding": "10",
+                "color": "#000000",
+                "font": "HelveticaNeue",
+                "size": "14"
+              },
               "text": "SQF Audit",
-              "class": "bold padded",
               "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/action/index.json"
+                "url": "https://www.youtube.com/watch?v=hfevBAAfCMQ",
+                "view": "Web"
               }
             },
             {
               "type": "label",
-              "text": "Template",
-              "class": "bold padded",
+              "style": {
+                "align": "left",
+                "padding": "10",
+                "color": "#000000",
+                "font": "HelveticaNeue",
+                "size": "14"
+              },
+              "text": "HVAC Audit",
               "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/template/index.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Warehouse Checklist",
-              "class": "bold padded",
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/webcontainer/index.json"
+                "url": "https://jasonette.github.io/documentation",
+                "view": "Web"
               }
             }
           ]
-        },
-        {
-          "header": {
-            "type": "vertical",
-            "style": {
-              "background": "#ebebeb"
-            },
-            "components": [{
-              "type": "label",
-              "class": "bold",
-              "text": "Showcase"
-            }, {
-              "type": "label",
-              "class": "normal",
-              "text": "Juiced Apps Checklists"
-            }]
-          },
-          "items": [{
-            "type": "label",
-            "text": "Instagram",
-            "href": {
-              "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
-              "transition": "modal"
-            }
-          }, {
-            "type": "label",
-            "text": "Twitter",
-            "href": {
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json",
-              "transition": "modal"
-            }
-          }]
         }
       ]
     }
