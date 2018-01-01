@@ -75,7 +75,7 @@
     properties: {
       confirm: {
         type: "boolean",
-        default: false
+        default: null
       }
     }
   };
@@ -85,8 +85,8 @@
       key: "confirm",
       type: "radios",
       titleMap: [
-        { value: false, name: "No I don't understand these cryptic terms" },
-        { value: true, , name: "Yes this makes perfect sense to me" }
+        { value: false, name: "No" },
+        { value: true, , name: "Yes" }
       ]
     }
   ];
